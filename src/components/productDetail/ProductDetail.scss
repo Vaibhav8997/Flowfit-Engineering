@@ -1,0 +1,22 @@
+.productDetail{
+    margin: 20px;
+    p{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    
+
+    .diagram{
+        transition: .5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    .mani{
+        max-width: 300px;
+        max-height: 300px;
+        
+    }
+}

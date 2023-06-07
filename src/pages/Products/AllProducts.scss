@@ -1,0 +1,36 @@
+.doubleferrule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    .container{
+        width: 1200px;
+        display: flex;
+        .content-section{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin: 0px 20px;
+            h1{
+                color: var(--primary-color);
+                font-size: 35px;
+            }
+
+            .product-details{
+                display: flex;
+                flex-wrap: wrap;
+
+                .img-product{
+                    border: 1px solid #999;
+                    padding: 10px;
+                    max-height: 300px;
+                    max-width: 300px;
+                    img{
+                        height: 250px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

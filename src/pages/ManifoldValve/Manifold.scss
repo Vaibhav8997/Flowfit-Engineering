@@ -1,0 +1,24 @@
+.manifoldValve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container {
+        display: flex;
+        width: 1200px;
+        gap: 20px;
+        margin-top: 20px;
+
+        .content{
+            h1{
+                color: var(--primary-color);
+            }
+            h1,h3,p{
+                margin-top: 10px;
+            }
+            .products{
+                display: flex;
+                margin-top: 10px;
+            }
+        }
+    }
+}

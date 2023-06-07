@@ -1,0 +1,35 @@
+.thermowell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    .container{
+        width: 1200px;
+        display: flex;
+        .content-section{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin: 0px 20px;
+            h1{
+                color: var(--primary-color);
+                font-size: 35px;
+            }
+
+            .product-details{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                .img-product{
+                    padding: 10px;
+                    max-height: 300px;
+                    max-width: 300px;
+                }
+                img{
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+}

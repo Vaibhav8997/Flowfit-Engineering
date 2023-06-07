@@ -1,0 +1,25 @@
+.needleValve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container{
+        width: 1200px;
+        display: flex;
+        gap: 40px;
+        margin-top: 15px;
+
+        .needles{
+            display: flex;
+            flex-direction: column;
+            .head{
+                color: var(--primary-color);
+            }
+            .cards{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+            }
+        }
+    }
+}

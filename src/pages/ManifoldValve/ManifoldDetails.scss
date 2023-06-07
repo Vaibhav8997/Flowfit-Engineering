@@ -1,0 +1,45 @@
+.manifoldDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    .container{
+        width: 1200px;
+        display: flex;
+        .content-section{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin: 0px 20px;
+            h1{
+                color: var(--primary-color);
+                font-size: 35px;
+            }
+
+            .product-details{
+                display: flex;
+                flex-wrap: wrap;
+
+                .img-product{
+                    padding: 10px;
+                    .manifold-img{
+                        margin: 10px;
+                        max-width: 300px;
+                        max-height: 300px;
+                    }
+                }
+
+                .features, .features2{
+                    margin: 20px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+
+                .features2{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
