@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
             <div className="company">
               <hr />
-              Made with <AiFillHeart style={{color: 'red'}}/> <Link to='https://www.linkedin.com/in/kishan-chauhan-a7420a212/' className='link'>Kishan Chauhan</Link>
+              Made with <AiFillHeart style={{color: 'red'}}/> <Link to='https://www.linkedin.com/in/vaibhav7781/' className='link'>Vaibhav Singh</Link>
             </div>
           </div>
         </div>
