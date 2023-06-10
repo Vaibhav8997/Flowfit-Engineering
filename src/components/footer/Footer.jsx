@@ -65,19 +65,18 @@ const Footer = () => {
           </div>
           <div className="quick-links">
             <h2>Quick Links</h2>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Services</p>
-            <p>Team</p>
-            <p>Contact Us</p>
+            <p><Link to='/' className='link'>Home</Link></p>
+            <p><Link to='/about' className='link'>About Us</Link></p>
+            <p> <Link to='/services' className='link'>Services</Link></p>
+            <p> <Link to='/contact' className='link'>Contact Us</Link></p>
           </div>
           <div className="products">
             <h2>Our Products</h2>
-            <p>Ball Valve</p>
-            <p>Needle Valve</p>
-            <p>Check Valve</p>
-            <p>Manifold Valve</p>
-            <p>Thermo Valve</p>
+            <p><Link to='/ballvalve' className='link'>Ball Valve</Link></p>
+            <p><Link to='/needleValve' className='link'>Needle Valve</Link></p>
+            <p><Link to='/checkValve' className='link'>Check Valve</Link></p>
+            <p><Link to='/manifoldValve' className='link'>Manifold Valve</Link></p>
+            <p><Link to='/thermowell' className='link'>Thermo Valve</Link></p>
           </div>
         </div>
         
